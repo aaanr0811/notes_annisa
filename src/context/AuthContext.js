@@ -29,7 +29,7 @@ const AuthProvider = ({ children }) => {
     const login = useCallback(async (user, password) => {
         setLoading(true);
         try {
-            if (user === "Faris" && password === "123") {
+            if (user === "Annisa" && password === "0811") {
                 await AsyncStorage.setItem(authenticatedKey, "true");
                 setAuthenticated(true);
             } else {
